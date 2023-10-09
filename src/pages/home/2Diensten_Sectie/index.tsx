@@ -46,6 +46,9 @@ const cardData = [
   },
   
 ];
+
+
+
 // Const Slider-Sectie
 const Home_Sectie_2_Horizontal_Slider = () => {
   return (
@@ -53,15 +56,16 @@ const Home_Sectie_2_Horizontal_Slider = () => {
     <div className="min-h-fit m-4 ">
          {/* Container */}
     
-         <div className="relative flex justify-center p-3 mt-24">
-         <div className="flex justify-center relative z-10  text-4xl md:text-5xl font-buttonFont font-bold text-slate-700  text-center">
+         <div className="relative flex justify-center  mt-24">
+         <div className="flex justify-center relative z-10 text-2xl md:text-5xl font-buttonFont font-bold text-slate-700  text-center">
       Curtis@123websupport.nl
     </div>
-  <span className="absolute mt-2 w-[470px] h-3 bg-emerald-300 top-5 md:top-8 transform translate-y-1/2 left-auto origin-left transition-transform animate-textColorAnimation"></span>
+  <span className="absolute mt-2 w-[470px] h-3 bg-emerald-300/20  md:top-8 transform translate-y-1/2 left-auto origin-left transition-transform animate-textColorAnimation"></span>
   <div className="relative z-10 my-20 text-4xl md:text-5xl font-buttonFont font-bold text-slate-600/98 text-center">
-    
-  </div>
+   </div>
+   
           </div>
+      
         {/* TITEL +  groene streep */}
 
      
@@ -77,7 +81,7 @@ const Home_Sectie_2_Horizontal_Slider = () => {
               className=" max-w-sm m-4 bg-white shadow-lg border-2 mb-10 border-teal-500/5 rounded-lg hover:shadow-xl hover:scale-105  transform transition-transform ease-in-out duration-1900">
               <Image 
                 width={600}
-                height={110}
+                height={250}
                 src={card.imageUrl}
                 alt={`Card ${index + 1}`}
                 

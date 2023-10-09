@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Portfolio() {
   return (
     <div>
-      <div className="relative  mt-20 flex flex-col items-center">
+      <div className="relative  mt-14 flex flex-col items-center">
       <div className="flex justify-center relative z-10  text-4xl md:text-5xl font-buttonFont font-bold text-slate-700  text-center">
       Laatste Sites
     </div>

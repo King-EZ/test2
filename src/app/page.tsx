@@ -7,7 +7,7 @@ function Page() {
   // Your component logic here
 
   return (
-    <div className="">
+    <div className="max-w-screen p-2  justify-center overflow-x-hidden">
       <Head>
           {/* Add meta tags, stylesheets, and other head elements here */}
           <meta charSet="UTF-8" />
@@ -18,8 +18,9 @@ function Page() {
           />
           
         </Head>
+        <div className="" >
       <Home />
-      
+      </div>
     </div>
   );
 }

@@ -5,41 +5,41 @@ function TextCTA() {
   return (
     <div className="grid place-items-center min-h-screen">
       <div className="p-4 max-w-4xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6">
-        <h1 className="text-5xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2 md:col-span-3 md:text-5xl md:grid-cols-3 lg:text-6xl text-center">
+        <h1 className="text-3xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2 md:col-span-3 md:text-5xl md:grid-cols-3 lg:text-6xl text-center">
           <span className="xs:col-span-4">
             <span className="text-black">Volledige Website</span>
-            <span className="text-emerald-300">Online</span> vanaf
+            <span className="text-emerald-300"> Online</span> vanaf
             <span className="text-emerald-300">€1250!</span>
           </span>
         </h1>
-        <div className="xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 md:pr-12 md:text-lg text-center border-l-2 p-4 pr-2 border-emerald-300">
-          <span className="flex text-3xl font-bold justify-center text-center mb-5">
+        <div className="xs:row-start-2 xs:col-start-2 xs:self-center text-sm font-bold md:col-start-1 md:col-span-2  md:text-lg text-center ">
+          <span className="flex text-xl font-bold justify-center text-center mb-5">
             <span className="text-emerald-300">Mobile&nbsp;</span> First <br />
           </span>
-          De gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
+          gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
         </div>
         <div className="h-16 md:h-16 xs:h-auto xs:square flex justify-center items-center">
           <Image
-          width={160}
+          width={140}
           height={160}
-            className="w-40 h-40"
+            className="w-36 h-36"
             src="/img/icons-home/icon-mobile1.png"
             alt="Icon"
           />
         </div>
         <div className="h-16 md:h-16 xs:h-auto xs:square flex justify-center items-center">
-          <div className="xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 md:pr-12 md:text-lg text-center border-r-2 p-4 border-emerald-300">
-            <span className="flex text-3xl font-bold justify-center text-center mb-5">
+          <div className="xs:row-start-2 xs:col-start-2 xs:self-center text-sm font-bold md:col-start-1 md:col-span-2  md:text-lg text-center ">
+            <span className="flex text-xl font-bold justify-center text-center mb-5">
               <span className="text-emerald-300">SEO&nbsp;</span> Friendly <br />
             </span>
-            De gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
+            gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
           </div>
         </div>
         <div className="h-16 md:h-16 xs:h-auto xs:square flex justify-center items-center">
           <Image
           width={160}
           height={160}
-            className="w-40 h-40"
+            className="w-36 h-36"
             src="/img/icons-home/icon-seo2.png"
             alt="Icon"
           />
@@ -49,7 +49,7 @@ function TextCTA() {
             <Image
            width={160}
            height={160}
-              className="w-40 h-40"
+              className="w-36 h-36"
               src="/img/icons-home/icon-support3.png"
               alt="Icon"
             />
@@ -57,11 +57,11 @@ function TextCTA() {
         </div>
         <div className="h-16 xs:h-auto xs:square">
           <div className="h-16 md:h-16 xs:h-auto xs:square flex justify-center items-center">
-            <div className="xs:row-start-2 xs:col-start-2 xs:self-center md:col-start-1 md:col-span-2 md:pr-12 md:text-lg text-center border-l-2 p-4 border-emerald-300">
-              <span className="flex text-3xl font-bold justify-center text-center mb-5">
+            <div className="xs:row-start-2 xs:col-start-2 xs:self-center text-sm font-bold md:col-start-1 md:col-span-2 md:pr-12 md:text-lg text-center  p-4 ">
+              <span className="flex text-xl font-bold justify-center text-center mb-5">
                 <span className="text-emerald-300 text-2xl">24<span className="text-black/50">/</span>7&nbsp;</span> Support <br />
               </span>
-              De gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
+              gebruikerservaring op smartphones en tablets wordt als prioriteit behandeld.
             </div>
           </div>
         </div>

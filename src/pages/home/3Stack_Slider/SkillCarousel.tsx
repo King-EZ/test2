@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 function SkillCarousel() {
   return (
-    <div className="mt-16 mb-10  ">
+    <div className="mt-16 mb-2  ">
       <div className="relative overflow-hidden min-h-fit w-auto m-auto">
         <div className="slide-track">
           <div className="slide">
