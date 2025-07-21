@@ -5,6 +5,7 @@ import React from 'react';
 import Portfolio from './5Portfolio/index'
 import Contact from './6Contact/index'
 import Navbar from '../../components/navBar_Header_Top/index';
+import Header from './1Header/index';
 import Head from 'next/head';
 
 function Home() {
@@ -19,9 +20,11 @@ function Home() {
       </Head>
      
 
-
     <div className="z-99">
       <Navbar />
+    </div>
+    <div className="z-1">
+      <Header />
     </div>
     <div id="services" className="relative pt-20">
       <Home_Sectie_2_Horizontal_Slider />

@@ -16,7 +16,7 @@ const Header = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Designer', 'Developer', 'Supporter'],
+      strings: ['Designer', 'Developer', 'Supporter', 'yo'],
       typeSpeed: 90,
       startDelay: 500,
       backSpeed: 25,
